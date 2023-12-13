@@ -7,3 +7,32 @@
     filter: invert();
     mix-blend-mode: multiply;
 }
+.outroo{
+    filter: brightness(200%);
+    height: 400px;
+    width: 600px;
+}
+.outr{
+    border: 2px dashed black;
+    animation: funrota 2s infinite alternate ;
+}
+@keyframes funrota{
+    0%{
+     box-shadow: 0px 0px 20px rgb(8, 232, 60);
+    }
+    50%{
+       box-shadow: 0px 0px 20px rgb(126, 2, 235);   }
+    100%{
+       box-shadow: 0px 0px 20px rgb(9, 209, 183);
+    }
+}
+.imgg{
+    box-shadow: 9px 0px 10px rgba(0, 0, 0, 0.257);
+    transition: transform .3s;
+    transition: all .3s;
+    border-radius: 12px;
+}
+.imgg:hover{
+    transform: scale(1.1);
+   
+}
