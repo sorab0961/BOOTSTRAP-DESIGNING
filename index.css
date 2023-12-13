@@ -1,0 +1,9 @@
+#logogif{
+    padding: 0;
+    margin: -19px;
+    filter: brightness(200%);
+}
+#ghummar{
+    filter: invert();
+    mix-blend-mode: multiply;
+}
